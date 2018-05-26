@@ -24,6 +24,10 @@ To install SDL/SDL2 on OSX(using brew), type ```brew install sdl2 sdl sdl_image 
 
 The binary needs the files in the assets/ directory to work properly.
 
+#### Using the Xcode project to build on OSX (10.9+)
+
+Recommended to use at least Xcode 6.2 with command line tools installed. Requires SDL2 and SDL2_image framework bundles to be installed in default location (/Library/Frameworks)
+
 ## Prototracker as a synth testbed
 
 Prototracker was also created for testing audio/synth code (while having some minimal setup for a song structure), so it is quite easily extendable. Each of the channels runs an instance of ITrackState and IOscillator, and will simply extend IPlayer and ISynth to setup your own ITrackState (from IPlayer) and/or IOscillator (from ISynth).
