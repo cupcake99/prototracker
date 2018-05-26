@@ -24,7 +24,7 @@ To install SDL/SDL2 on OSX(using brew), type ```brew install sdl2 sdl sdl_image 
 
 The binary needs the files in the assets/ directory to work properly.
 
-#### Using the Xcode project to build on OSX (10.9+)
+### Using the Xcode project to build on OSX (10.9+)
 
 Recommended to use at least Xcode 6.2 with command line tools installed. Requires SDL2 and SDL2_image framework bundles to be installed in default location (/Library/Frameworks)
 
